@@ -1,4 +1,3 @@
-
 #include <stdio.h>
 
 /**
@@ -7,6 +6,7 @@
  * Return: always returns 0
  *
  */
+
 int main(void)
 {
 	int  i = 0;
@@ -15,3 +15,4 @@ int main(void)
 		putchar('0' + i);
 	putchar('\n');
 	return (0);
+}
