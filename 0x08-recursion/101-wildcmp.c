@@ -7,7 +7,7 @@
  * @s1: the normal string
  * @s2: the special string containing "*"
  *
-0 * Return: 1 if identical, else 0
+ * Return: 1 if identical, else 0
  */
 int wildcmp(char *s1, char *s2)
 {
@@ -24,5 +24,4 @@ int wildcmp(char *s1, char *s2)
 		return (wildcmp(s1, s2 + 1) || wildcmp(s1 + 1, s2));
 
 	return (0);
-}
 }
